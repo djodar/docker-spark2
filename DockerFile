@@ -1,0 +1,8 @@
+FROM ubuntu:16.04
+
+RUN apt-get -y update
+RUN echo 'Installing curl'
+RUN apt-get -y install curl
+
+RUN echo 'Setting up env variables'
+ENV dani /usr/local/bin

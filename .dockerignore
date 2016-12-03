@@ -1,0 +1,4 @@
+# Directories to avoid sending to the daemon
+.idea
+.gitignore
+README.md
